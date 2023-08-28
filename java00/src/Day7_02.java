@@ -30,7 +30,7 @@ public class Day7_02 {
 
 
             //HasMap 사용
-
+/*
             Map<Integer, Integer> map = new HashMap<>();
             for (int number : array) {
                 int count = map.getOrDefault(number, 0) + 1;
@@ -43,6 +43,7 @@ public class Day7_02 {
                 map.put(number, count);
             }
             return answer;
+*/
 
         }
     }
