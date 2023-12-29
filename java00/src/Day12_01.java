@@ -34,8 +34,20 @@ public class Day12_01 {
 
         System.out.println(str);
 
-
-
+        // 2. Character.toLowerCase, toUpperCase, isUpperCase, isLowerCase
+        // 배열이 아닌 임시변수 temp에 담기
+        // charAt() : String의 특정 인덱스 문자를 char로
+        char temp;
+        String str2="";
+        for (int i = 0; i < a.length(); i++) {
+            temp = a.charAt(i);
+            if (Character.isUpperCase(temp)) {
+                str2 += Character.toLowerCase(temp);
+            } else {
+                str2 += Character.toUpperCase(temp);
+            }
+        }
+        System.out.println(str2);
 
     }
 
