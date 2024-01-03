@@ -12,6 +12,5 @@ public class Day14_02 {
         String answer1 = String.join("", arr);
         return answer;
 
-
     }
 }
